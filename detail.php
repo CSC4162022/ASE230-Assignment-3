@@ -28,11 +28,11 @@ require "data.php";
                 <div class="mb-2">
                     <ul class="list-unstyled">
                         <li class="media">
-                            <span class="w-25 text-black font-weight-normal"><?php echo('Dream Profession:') ?></span>
+                            <span class="w-25 text-black font-weight-normal"><?php echo 'Dream Profession:' ?></span>
                             <label class="media-body"><?= groupInfo[$_GET['index']]['dreamProfession'] ?></label>
                         </li>
                         <li class="media">
-                            <span class="w-25 text-black font-weight-normal"><?php echo('Dream Company:') ?></span>
+                            <span class="w-25 text-black font-weight-normal"><?php echo 'Dream Company:' ?></span>
                             <label class="media-body"><?= groupInfo[$_GET['index']]['dreamCompany'] ?></label>
                         </li>
                         <li class="media">
