@@ -18,3 +18,4 @@ function calculateBirthDifference($birthdate) {
     print "born " . $interval->y . " years, " . $interval->m." months, ".$interval->d." days ago";
 
 }
+
